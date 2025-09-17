@@ -4,9 +4,7 @@ import entities.Compte;
 import repository.CompteRepository;
 import utilitaire.Validation;
 import entities.CompteCourant;
-import entities.CompteEpargne;
-import entities.Retrait;
-import entities.Versement;
+
 
 public class CompteService {
 
@@ -21,7 +19,7 @@ public class CompteService {
 	// ==============fonction d'ajouter un nouveau compte============================================//
 
 	public void addCompte(String type, String code, double montant, double decouverOrTaux) {
-		// Validation rapide
+		try {
 		if (!Validation.validateCode(code) || !Validation.validateMontant(montant)) {
 			System.out.println("❌ Code de compte ou montant invalide.");
 			return;
@@ -47,6 +45,10 @@ public class CompteService {
 		// Sauvegarde du compte
 		compteRepository.save(compte);
 		System.out.println("✅ Compte créé avec succès !");
+		}
+		catch(Exception e) {
+			System.out.println(e.getMessage());
+		}
 	}
 
 	
