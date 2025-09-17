@@ -104,5 +104,5 @@ C:.
 git clone https://github.com/safiaKhoulaid/gestionne-de-syst-me-bancaire.git
 
 ### Menu principal
-![Menu principal](src/screenshots/menu.png)
+![Menu principal](screenshots/menu.png)
 
