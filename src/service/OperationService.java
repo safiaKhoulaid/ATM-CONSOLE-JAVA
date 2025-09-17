@@ -27,6 +27,7 @@ public class OperationService {
 		}
 
 		if (montant <= 0) {
+			System.out.println("le montant saisi est impossible.");
 			return false;
 		}
 
@@ -146,7 +147,5 @@ public class OperationService {
 			}
 		}
 	}
-	
-	
 
 }
