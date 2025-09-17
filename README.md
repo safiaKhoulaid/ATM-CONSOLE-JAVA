@@ -102,7 +102,7 @@ C:.
 1. Cloner le projet depuis GitHub :
 ```bash
 git clone https://github.com/safiaKhoulaid/gestionne-de-syst-me-bancaire.git
-```**
+```
 ---
 ## Menu principale 
 ![Menu principal](screenshots/menu.png)
