@@ -7,7 +7,7 @@ public abstract class Compte {
 
 	//attributes
 	private String code ;
-	private double solde;
+	protected double solde;
 	private List<Operation> listOperations;
 	
 	//constructor
@@ -38,5 +38,6 @@ public abstract class Compte {
 	public void setSolde(double solde) {
 		this.solde = solde ;
 	}
+	
 	
 }

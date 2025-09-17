@@ -11,9 +11,9 @@ public abstract class Operation {
 	private double montant ;
 	
 	//constructor
-	public Operation(UUID UUID , LocalDateTime date , double montant) {
-		this.UUID = UUID ;
-		this.date = date ;
+	public Operation(double montant) {
+		this.UUID = UUID.randomUUID() ;
+		this.date = date.now() ;
 		this.montant = montant ;
 	}
 	
