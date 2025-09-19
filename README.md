@@ -106,11 +106,10 @@ git clone https://github.com/safiaKhoulaid/gestionne-de-syst-me-bancaire.git
 ---
 ## Menu principale 
 ![Menu principal](screenshots/menu.png)
-
-### Création d’un compte
-![Créer un compte](screenshots/creation_compte.png)
-
-### Solde du compte
-![Solde du compte](screenshots/solde.png)
 ---
 
+## Diagramme de classe
+![Diagramme de classe](./src/UML/ATM-diagramme-class.drawio%20%281%29.png)
+---
+
+---
